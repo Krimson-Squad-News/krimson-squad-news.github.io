@@ -25,7 +25,7 @@ export const Articles = () => {
                         title: "Sliver C2 Framework in a PYPI package",
                          desc: "The requests-darwin-lite Package hides Sliver C2 framework in a logo png file, after acknowledgement PYPI tooks down the package." }}>
                          </Card>
-                    </div>
+                
                 </div>
             </section>
         </>

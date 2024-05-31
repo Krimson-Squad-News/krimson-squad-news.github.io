@@ -152,14 +152,14 @@
   }
   
   /* Inner page container */
-  .container {
+  .page-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 2rem 0;
     grid-gap: 1.5rem;
   }
   
-  .container > *:first-child {
+  .page-container > *:first-child {
     grid-row: 1 / span 3;
   }
   

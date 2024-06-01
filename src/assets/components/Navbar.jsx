@@ -1,16 +1,18 @@
-export const Navbar = () => {
+import { Link } from "react-router-dom";
+export const Navbar = ({data}) => {
+
     return(
         <>
         <nav id="main-nav">
-        <div class="container">
-            <img src="" alt="news.krimsonsquad" class="logo"/>
+        <div className="container">
+            <img src="" alt="news.krimsonsquad" className="logo"/>
            
             <ul>
-                <li><a class="current" href="index.html">Home</a></li>
-                <li><a href="about.html">Highlights</a></li>
-                <li><a href="about.html">Tools</a></li>
-                <li><a href="about.html">Techniques</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><Link className="current" to="/">Home</Link></li>
+                <li><Link className="ioio" to="/highlights">Highlights</Link></li>
+                <li><Link className="ioio" to="/tools">Tools</Link></li>
+                <li><Link className="ioio" to="/techniques">Techniques</Link></li>
+                <li><Link className="ioio" to="/about">About</Link></li>
             </ul>
         </div>
     </nav>
